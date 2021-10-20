@@ -1,5 +1,5 @@
 # PBO
-Ini adalah tugas kelompok SVEN dengan nama :
+Ini adalah UTS kelompok SVEN dengan nama :
 1. Doli Aulia Hamdalah 201401094
 2. Atha Maulana 201401096
 3. Arifandi Hasnuagi 201401115
