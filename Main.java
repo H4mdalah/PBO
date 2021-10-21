@@ -2,7 +2,7 @@ package uts.pbo;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("========[     Daftar 5 User      ]========");
+        System.out.println("=====     Daftar 5 User     ====");
         
         User user1 = new User("doli1" , "doli123");
         User user2 = new User("alwan2" , "alwan123");
@@ -25,7 +25,7 @@ public class Main {
         System.out.println();
         System.out.println();
         
-        System.out.println("========[   Rename Username    ]========");
+        System.out.println("=====   Rename Username  =====");
         int id1 = 1;
         
         String rename_username1 = "alwan-kun";
@@ -39,7 +39,7 @@ public class Main {
         System.out.println();
         
         
-        System.out.println("========[ Rename 2 Username Used ]========");
+        System.out.println("==== Rename 2 Username Used =====");
         int id2 = 4;
         int id3 = 0;
         
@@ -54,7 +54,7 @@ public class Main {
             User.userList.get(id3).setUname(rename_username3);
             System.out.println((id3+1) + ". " + User.userList.get(id3).name + "\t" + User.userList.get(id3).encryptedPassword);
         }
-        System.out.println("========[  Rename 2 Username  ]========");
+        System.out.println("====  Rename 2 Username  ====");
         int id4 = 2;
         int id5 = 3;
         
@@ -79,34 +79,34 @@ public class Main {
         
         
        
-        System.out.println("========[      All Activity      ]========");
+        System.out.println("====      All Activity  ====");
         Activity.printAllActivities();
         System.out.println();
         
        
-        System.out.println("========[     Today Activity     ]========");
+        System.out.println("====     Today Activity   ====");
         Activity.printTodaysActivities();
         System.out.println();
         
         
         
-        System.out.println("========[      Login 2 User      ]========");
+        System.out.println("====      Login 2 User      ====");
         new User("","").logIn("doli1", "doli123");
         new User("","").logIn("alwan-kun", "alwan123");
         System.out.println();
         
         
-        System.out.println("========[  Failed Login 2 User   ]========");
+        System.out.println("====  Failed Login 2 User  ====");
         new User("","").logIn("dolol", "doli");
         new User("","").logIn("allwan", "alwan");
         System.out.println();
         
-        System.out.println("========[     User Activity      ]========");
+        System.out.println("====     User Activity    ====");
         Activity.printUserActivities("doli1");
         Activity.printUserActivities("alwan-kun");
         System.out.println();
         
-        System.out.println("========[    Last 10 Activity    ]========");
+        System.out.println("====    Last 10 Activity    ====");
         Activity.printLastTenActivities();
         System.out.println();
     }
