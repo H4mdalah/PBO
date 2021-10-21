@@ -54,6 +54,9 @@ public class Main {
             User.userList.get(id3).setUname(rename_username3);
             System.out.println((id3+1) + ". " + User.userList.get(id3).name + "\t" + User.userList.get(id3).encryptedPassword);
         }
+        System.out.println();
+        System.out.println();
+        
         System.out.println("====  Rename 2 Username  ====");
         int id4 = 2;
         int id5 = 3;
